@@ -13,6 +13,7 @@
 		841415531DB793490051AA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841415521DB793490051AA5C /* Assets.xcassets */; };
 		841415561DB793490051AA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841415541DB793490051AA5C /* LaunchScreen.storyboard */; };
 		841415641DB793620051AA5C /* NewprjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841415631DB793620051AA5C /* NewprjTests.swift */; };
+		84A72BAA1DCC5E1100919363 /* NewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A72BA91DCC5E1100919363 /* NewFile.swift */; };
 		84BBE81C1DBA12BB00478117 /* EpctoUpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBE81B1DBA12BB00478117 /* EpctoUpc.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		841415611DB793620051AA5C /* NewprjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewprjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841415631DB793620051AA5C /* NewprjTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewprjTests.swift; sourceTree = "<group>"; };
 		841415651DB793620051AA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A72BA91DCC5E1100919363 /* NewFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewFile.swift; path = NewGroupCheck/NewFile.swift; sourceTree = "<group>"; };
 		84BBE81B1DBA12BB00478117 /* EpctoUpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpctoUpc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 		8414154A1DB793490051AA5C /* Newprj */ = {
 			isa = PBXGroup;
 			children = (
+				84A72BA81DCC5DD700919363 /* NewGroupCheck */,
 				8414154B1DB793490051AA5C /* AppDelegate.swift */,
 				8414154D1DB793490051AA5C /* ViewController.swift */,
 				84BBE81B1DBA12BB00478117 /* EpctoUpc.swift */,
@@ -97,6 +100,14 @@
 				841415651DB793620051AA5C /* Info.plist */,
 			);
 			path = NewprjTests;
+			sourceTree = "<group>";
+		};
+		84A72BA81DCC5DD700919363 /* NewGroupCheck */ = {
+			isa = PBXGroup;
+			children = (
+				84A72BA91DCC5E1100919363 /* NewFile.swift */,
+			);
+			name = NewGroupCheck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 			files = (
 				8414154E1DB793490051AA5C /* ViewController.swift in Sources */,
 				8414154C1DB793490051AA5C /* AppDelegate.swift in Sources */,
+				84A72BAA1DCC5E1100919363 /* NewFile.swift in Sources */,
 				84BBE81C1DBA12BB00478117 /* EpctoUpc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
