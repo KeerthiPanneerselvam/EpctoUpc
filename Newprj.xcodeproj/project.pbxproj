@@ -14,7 +14,7 @@
 		841415561DB793490051AA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841415541DB793490051AA5C /* LaunchScreen.storyboard */; };
 		841415641DB793620051AA5C /* NewprjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841415631DB793620051AA5C /* NewprjTests.swift */; };
 		84A72BAA1DCC5E1100919363 /* NewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A72BA91DCC5E1100919363 /* NewFile.swift */; };
-		84A72BAD1DCC5E8100919363 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A72BAC1DCC5E8100919363 /* File.swift */; };
+		84A72BAF1DCC606300919363 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A72BAE1DCC606300919363 /* File.swift */; };
 		84BBE81C1DBA12BB00478117 /* EpctoUpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBE81B1DBA12BB00478117 /* EpctoUpc.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		841415631DB793620051AA5C /* NewprjTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewprjTests.swift; sourceTree = "<group>"; };
 		841415651DB793620051AA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A72BA91DCC5E1100919363 /* NewFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewFile.swift; path = NewGroupCheck/NewFile.swift; sourceTree = "<group>"; };
-		84A72BAC1DCC5E8100919363 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		84A72BAE1DCC606300919363 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = NewGroupLocal/File.swift; sourceTree = "<group>"; };
 		84BBE81B1DBA12BB00478117 /* EpctoUpc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpctoUpc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,7 +116,7 @@
 		84A72BAB1DCC5E6C00919363 /* NewGroupLocal */ = {
 			isa = PBXGroup;
 			children = (
-				84A72BAC1DCC5E8100919363 /* File.swift */,
+				84A72BAE1DCC606300919363 /* File.swift */,
 			);
 			name = NewGroupLocal;
 			sourceTree = "<group>";
@@ -222,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A72BAD1DCC5E8100919363 /* File.swift in Sources */,
+				84A72BAF1DCC606300919363 /* File.swift in Sources */,
 				8414154E1DB793490051AA5C /* ViewController.swift in Sources */,
 				8414154C1DB793490051AA5C /* AppDelegate.swift in Sources */,
 				84A72BAA1DCC5E1100919363 /* NewFile.swift in Sources */,
